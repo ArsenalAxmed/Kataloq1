@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.left-section, .right-section {
+    width: 48%;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.trending, .under-40 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.explore {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.explore:hover {
+    background-color: #0056b3;
+}
